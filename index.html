@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoVista</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+    <div id="home-star-cars">
+        <div id="star-cars-top-bar">
+            <button onclick="enableButton(0)" class="top-bar-button">Best Seller</button>
+            <button onclick="enableButton(1)" class="top-bar-button">Latest</button>
+            <button onclick="enableButton(2)" class="top-bar-button">Best Deals</button>
+            <span id="span-underline"></span>
+        </div>
+        <div id="best-seller">
+            <div>
+                <p>BEST SELLER</p>
+                <img src="media/homepage/png-transparent-lamborghini-aventador-car-logo-2012-lamborghini-gallardo-lamborghini-emblem-logo-car.png" alt="Car Logo"
+                    style="position: absolute; top: 15vh; left: 78vw; height: 25vh;">
+                <img src="media/homepage/2024-lamborghini-revuelto-cover-logo.png" alt="Car Logo"
+                    style="position: absolute; top: 27vh; left: 12vw; height: 8vh;">
+                <a href="lh.html" class="discover-button">
+                    Discover
+                    <svg xmlns="http://www.w3.org/2000/svg" height="5vh" viewBox="0 -960 960 960" >
+                        <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div id="latest">
+            <div>
+                <p>LATEST</p>
+                <img src="media/homepage/lucidLogo.png" alt="Car Logo"
+                    style="position: absolute; top: 25vh; left: 75vw; height: 5vh;">
+                <img src="media/homepage/lucidAirLogo.png" alt="Car Logo"
+                    style="position: absolute; top: 27vh; left: 12vw; height: 10vh;">
+                <a href="lucidAir.html" class="discover-button">
+                    Discover
+                    <svg xmlns="http://www.w3.org/2000/svg" height="5vh" viewBox="0 -960 960 960" >
+                        <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div id="best-deal">
+            <div>
+                <p>BEST DEAL</p>
+                <img src="media/homepage/Ford-Logo.png" alt="Car Logo"
+                    style="position: absolute; top: 20vh; left: 80vw; height: 10vh;">
+                <img src="media/homepage/Ford-Bronco-Logo-old.png" alt="Car Logo"
+                    style="position: absolute; top: 20vh; left: 12vw; height: 30vh;">
+                <a href="fordbronco.html" class="discover-button">
+                    Discover
+                    <svg xmlns="http://www.w3.org/2000/svg" height="5vh" viewBox="0 -960 960 960" >
+                        <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="divider-gradiant"></div>
+    <div id="categories">
+        <div id="categories-heading">CATAGORIES</div>
+        <div id="categories-car-container">
+            <div class="catagory-card" onclick="showCatagory(0)">
+                <div class="catagory-card-line">
+                    <div></div>
+                    <div></div>
+                </div>
+                <img src="media/homepage/sedan.png" alt="">
+                <p class="catagory-name">SEDAN</p>
+                <p class="vertical-catagory-name">SEDAN</p>
+            </div>
+            <div class="catagory-card" onclick="showCatagory(1)">
+                <div class="catagory-card-line">
+                    <div></div>
+                    <div></div>
+                </div>
+                <img src="media/homepage/suv.png" alt="">
+                <p class="catagory-name">SUV</p>
+                <p class="vertical-catagory-name">SUV</p>
+            </div>
+            <div class="catagory-card" onclick="showCatagory(2)">
+                <div class="catagory-card-line">
+                    <div></div>
+                    <div></div>
+                </div>
+                <img src="media/homepage/convertible.png" alt="">
+                <p class="catagory-name">CONVERTIBLE</p>
+                <p class="vertical-catagory-name">CONVERTIBLE</p>
+            </div>
+            <div class="catagory-card" onclick="showCatagory(3)">
+                <div class="catagory-card-line">
+                    <div></div>
+                    <div></div>
+                </div>
+                <img src="media/homepage/muscle.png" alt="">
+                <p class="catagory-name">MUSCLE</p>
+                <p class="vertical-catagory-name">MUSCLE</p>
+            </div>
+            <div class="catagory-card" onclick="showCatagory(4)">
+                <div class="catagory-card-line">
+                    <div></div>
+                    <div></div>
+                </div>
+                <img src="media/homepage/hyper.png" alt="">
+                <p class="catagory-name">HYPER</p>
+                <p class="vertical-catagory-name">HYPER</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+    <script src="index.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Myfont; */
+    @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('media/reg/reg-car.png')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    width: 420px;
+    background-color: transparent;
+    border: 1px outset #e9e9e9;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    /* border-radius: 15px; */
+    padding: 32px 32px;
+}
+
+.login h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.login .inputt {
+    width: 100%;
+    height: 48px;
+    margin: 30px 0;
+}
+
+.gen {
+    font-size: 18px;
+    margin: 0px 0px 24px 1px;
+}
+
+.gen label {
+    padding-right: 16px;
+}
+
+/* input[type='radio']:active {
+    color: pink;
+} */
+
+.inputt input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    /* border: none; */
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    /* border-radius: 15px; */
+    font-size: 16px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+.inputt input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.login .button {
+    width: 100%;
+    height: 48px;
+    background: white;
+    margin-bottom: 8px;
+    border: none;
+    outline: none;
+    /* border-radius: 15px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.birth {
+    font-size: 22px;
+    /* border: 2px solid black; */
+    margin: 24px 0 32px 0;
+}
+
+input[type='radio'] {
+    background-color: red;
+    color-scheme: dark;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+input[type='radio']:checked {
+    background-color: red;
+}
+
+input[type="date"]{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px 20px 20px 20px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+::-webkit-calendar-picker-indicator{
+    /* color: white; */
+    /* background-color: white; */
+    /* border: 2px solid white; */
+    /* padding: 0px 0px 0px 0px; */
+    font-size: 20px;
+    color-scheme: dark;
+    padding: 8px;
+}
+
+.birth div{
+    /* border: 2px solid white; */
+    margin-bottom: 24px;
+}
+
+.birth input {
+    width: 100%;
+    height: 32px;
+}

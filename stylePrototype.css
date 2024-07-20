@@ -1,0 +1,38 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+body{
+  min-height: 100vh;
+  background-image: url(ferrari_f40.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.start-img-slider{
+  height: 80vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.start-img-slider.scroll{
+  width: 600px;
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.img-container{
+  height: 100%;
+  background-size: cover;
+}

@@ -1,0 +1,297 @@
+#home-star-cars {
+  overflow: hidden;
+  height:120vh;
+  width: 100vw;
+  display: flex;
+  float: left;
+}
+
+#star-cars-top-bar {
+  display: flex;
+  height: 13vh;
+  width: 90vw;
+  position: absolute;
+  align-items: flex-end;
+  margin: 0 5vw;
+  border-bottom: 0.1vh solid rgba(255, 255, 255, 0.541);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.top-bar-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 2vh;
+  width: 15vw;
+  padding: 1vw;
+  color: rgba(255, 255, 255, 0.545);
+  transition: 0.2s;
+}
+
+.top-bar-button:hover {
+  color: white;
+}
+
+#span-underline {
+  position: absolute;
+  width: 15vw;
+  border-bottom: 0.22vh solid white;
+  transform: translateX(0vw);
+  transition: 0.5s;
+}
+
+#best-seller {
+  height: 120vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.627),
+      rgba(255, 255, 255, 0.099) 70%
+    ),
+    linear-gradient(
+      to right, 
+      rgba(0, 0, 0, 0.451), 
+      rgba(255, 255, 255, 0) 20%
+    ),
+    url("media/homepage/2024-lamborghini-revuelto-cover.png");
+  background-repeat: no-repeat;
+  background-size: 230vh;
+  transform: translateX(0vw);
+  background-position: left top;
+  transition: 1s;
+}
+
+#best-seller div p {
+  font-family: "Space_Grotesk";
+  font-style: italic;
+  position: absolute;
+  top: 18vh;
+  left: 10vw;
+  color: white;
+  font-size: 8vh;
+}
+
+#best-seller div {
+  height: 100vh;
+  width: 100vw;
+}
+
+#latest {
+  height: 120vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.627),
+      rgba(255, 255, 255, 0.099) 70%
+    ),
+    linear-gradient(
+      to right, 
+      rgba(0, 0, 0, 0.451), 
+      rgba(255, 255, 255, 0) 20%
+    ),
+    url("media/homepage/lucidAir.jpg");
+  background-repeat: no-repeat;
+  background-size: 210vh;
+  background-position: -50px top;
+  transform: translateX(0vw);
+  transition: 1s;
+  z-index: -1;
+}
+
+#latest div p {
+  font-family: "Space_Grotesk";
+  font-style: italic;
+  position: absolute;
+  top: 18vh;
+  left: 10vw;
+  color: white;
+  font-size: 8vh;
+}
+
+#latest div {
+  width: 100vw;
+  height: 100vh;
+}
+
+#latest div img {
+  position: absolute;
+  top: 28vh;
+  left: 10vw;
+  height: 12vh;
+}
+
+#best-deal {
+  height: 120vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.627),
+      rgba(255, 255, 255, 0.099) 30%
+    ),
+    linear-gradient(
+      to right, 
+      rgba(0, 0, 0, 0.451), 
+      rgba(255, 255, 255, 0) 10%
+    ),
+    url("media/homepage/ford-bronco.jpg");
+  background-repeat: no-repeat;
+  background-size: 240vh;
+  background-position: 0;
+  transform: translateX(-100vw);
+  transition: 1s;
+}
+
+#best-deal div p {
+  font-family: "Space_Grotesk";
+  font-style: italic;
+  position: absolute;
+  top: 18vh;
+  left: 10vw;
+  color: white;
+  font-size: 8vh;
+}
+
+#best-deal div {
+  height: 100vh;
+  width: 100vw;
+}
+
+#best-deal div img {
+  position: absolute;
+  top: 28vh;
+  left: 10vw;
+  height: 12vh;
+}
+
+.discover-button{
+  font-family: "Space_Grotesk";   
+  display: flex;
+  position: absolute;
+  background-color: transparent;
+  cursor: pointer;
+  align-items: center;
+  font-size: 3vh;
+  width: 17vh;
+  padding: 0.5vw;
+  padding-left: 1vw;
+  color: rgba(255, 255, 255, 0.545);
+  transition: 0.2s;
+  top: 80vh;
+  left: 88vw;
+  fill: rgba(255, 255, 255, 0.545);
+  backdrop-filter: blur(5px);
+  border: 0.1vh solid rgba(255, 255, 255, 0.545);
+  border-radius: 1vh;
+}
+
+.discover-button:hover {
+  color: white;
+  fill: white;
+  border: 0.1vh solid white
+}
+
+#divider-gradiant{
+  position: absolute;
+  top: 100vh;
+  width: 100vw;
+  height: 40vh;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0), 
+    #0c1136fa,
+    #0c113600 
+  );
+  pointer-events: none;
+}
+
+#categories{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  width: 100vw;
+  background-color: #0c1136;
+  border-bottom:#0c113600;
+}
+
+#categories-heading{
+  font-family: "Space_Grotesk";
+  align-self: flex-start;
+  color: white;
+  font-size: 8vh;
+  padding: 2vw;
+}
+
+#categories-car-container{
+  display: flex;
+  height: 80vh;
+  width: 80vw;
+  background-color: transparent;
+  /* border: 1px solid white; */
+  transform: skewX(20deg);
+}
+
+.catagory-card {
+  display: block;
+  margin: 0.1vw;
+  height: 80vh;
+  width: 3vw;
+  background-image: linear-gradient(rgb(121, 121, 121) 90%, rgb(255, 255, 255));
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.catagory-card:hover{
+  width: 5vw;
+  background-image: linear-gradient(rgb(137, 137, 137) 90%, rgb(255, 255, 255));
+}
+
+.catagory-card img {
+  height: 20vw;
+  transform: skewX(-20deg) 
+    translate(5vw,-45vh);
+}
+
+.catagory-name{
+  font-family: "Space_Grotesk";
+  width: 40vw;
+  height: 8vh;
+  text-align: end;
+  font-size: 5vw;
+  -webkit-text-stroke-width: 0.1vh;
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: transparent;
+  color: rgba(255, 255, 255, 0.789);
+  transform: translate(20vw,-100vh) ;
+}
+
+.vertical-catagory-name{
+  font-family: "Space_Grotesk";
+  height: 40vh;
+  text-align: end;  
+  font-size: 2.5vw;
+  writing-mode: vertical-lr;
+  -webkit-text-stroke-width: 0.1vh;
+  -webkit-text-stroke-color: #0c1136;
+  -webkit-text-fill-color: transparent;
+  transform: translate(0,-90vh);
+  color: rgba(0, 0, 0, 0.467);
+  user-select: none;
+}
+
+.catagory-card-line{
+  height: 100%;
+  width: 0.5vw;
+  transform: translate(53vw,0vh);
+  background-color: #2830684d;
+}
+
+.catagory-card-line div:first-child{
+  height: 100%;
+  width: 2.5vw;
+  transform: translate(1.5vw,0vh);
+  background-color: #2830687f;
+}
+
+.catagory-card-line div{
+  height: 100%;
+  width: 15vw;
+  transform: translate(4.5vw,-80vh);
+  background-color: #283068a5;
+}

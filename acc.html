@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account</title>
+  <link rel="stylesheet" href="acc.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li class="logo"><a href="index.html">AutoVista</a></li>
+      <li><a href="#">Add To Garage</a></li>
+      <li><a href="#">Log In</a></li>
+      <li><a href="#">Register</a></li>
+      <li class="menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" onclick=showSideBar()>
+          <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+        </svg>
+        </a>
+      </li>
+    </ul>
+    <div class="sidebar-grid">
+      <svg onclick=showSideBar() xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="48"
+        style="margin-right: 20px; justify-self:end">
+        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+      </svg>
+      <a href="fordbronco.html">Catalogue</a>
+      <a href="fordmustang.html">Garage</a>
+      <a href="#">About Us</a>
+      <a class="logo">AutoVista</a>
+    </div>
+  </nav>
+
+  <div class="container">
+  <h1>Orders</h1>
+
+  <div class="card">
+    <h1 class="card-header">Ford Mustang
+      <div class="ordernum">Order Number:AIN03649588</div>
+    </h1>
+
+    <img id="fmacc" src="media/acc/fm.png">
+    <div class="price">Price:</div>
+    <div class="amt">₹50,15,631</div>
+    <button type="button" id="detailsbutton" class="detailsbutton" onclick="toggle()">More Details</button>
+
+    <div class="text" onclick="function Toggle()">SGST: ₹5,015.63
+                        CGST: ₹5,015.63
+      </div>
+
+    <div class="stat">Status:</div>
+    <div class="statdetails">In-Transit</div>
+
+       <div class="expcard" ></div>
+
+  </div>
+  </div>
+
+
+    
+    <script src="acc.js"></script>
+</body>
+
+</html>

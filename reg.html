@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="reg.css">
+   
+</head>
+
+<body>
+    <div class="login">
+        <form id="registrationForm" action="post">
+            <h1>Register</h1>
+            <div class="inputt">
+                <input type="email" placeholder="Email" id="email" required>
+            </div>
+            <div class="inputt">
+                <input type="password" placeholder="Password" id="password" required>
+            </div>
+            <div class="inputt">
+                <input type="password" placeholder="Confirm Password" id="confirmPassword" required>
+            </div>
+            <div class="gen">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="birth">
+                <div>Date of Birth:</div>
+                <input type="date" max="2024-03-01" name="dob" id="dob">
+            </div>
+            <button type="button" class="button" onclick="confirmation()">Register</button>
+        </form>
+    </div>
+
+    <script src="reg.js"></script>
+</body>
+
+</html>
