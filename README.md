@@ -21,7 +21,7 @@ HTML5, CSS3, JavaScript
 1. Clone the repository:
 
    ```sh
-   https://github.com/FirstP0P/AutoVista
+   git clone https://github.com/FirstP0P/AutoVista.git
    ```
 
 2. Navigate to the project folder:
